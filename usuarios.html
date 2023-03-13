@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>login</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8 mx-auto" style="text-align: center;">
+        <div class="col-md-5 mx-auto">
+          <img src="img/LOGO_TUVSA.svg" alt="logo" class="img-fluid">
+
+          <h1 class="my-4">registro</h1>
+
+          <div class="card mx-auto bg-light" style="width: 30rem;" text.align: left;>
+            <div class="card-body">
+
+
+
+              <form action="registros.php" method="POST">
+                <div class="mb-3">
+                  <label class="form-label">nombre</label>
+                  <input type="text" class="form-control" name="nombre">
+                  <div id="emailHelp" class="form-text"></div>
+                  <div class="mb-3">
+                    <label for="form-label" class="form-label">apellido paterno</label>
+                    <input type="text" class="form-control"  name="apellidoP">
+                  </div>
+                  <div class="mb-3">
+                    <label for="form-label" class="form-label">apellido Materno</label>
+                    <input type="text" class="form-control"  name="apellidoM">
+                  </div>
+                  <div class="mb-3">
+                    <label for="form-label" class="form-label">correo</label>
+                    <input type="email" class="form-control"  name="correo">
+                  </div>
+                  <div class="mb-3">
+                    <label for="form-label" class="form-label">contraseña nueva</label>
+                    <input type="password" class="form-control"  name="password">
+                  </div>
+                  <br>
+
+                    </div>
+                  </div>
+
+
+                  <button type="submit" class="btn btn-primary">GUARDAR</button>
+              </form>
+
+            </div>
+          </div>
+<script src="js/jquery-3.6.3.min.js"></script>
+</body>
+
+</html>

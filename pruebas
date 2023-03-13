@@ -1,0 +1,2 @@
+   $correoTabla = $_SESSION['$correoTabla'];
+    $passTabla = $_SESSION['$passTabla'];
